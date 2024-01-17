@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "verify": "hardhat verify $npm_config_contract --network $npm_config_network --constructor-args scripts/args/arg$npm_config_name.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1"
+  }
+}
